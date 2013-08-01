@@ -56,7 +56,7 @@
 		1E49A45A1612223B00463151 /* BITFeedbackMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E49A4371612223B00463151 /* BITFeedbackMessage.m */; };
 		1E49A45D1612223B00463151 /* BITFeedbackUserDataViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E49A4381612223B00463151 /* BITFeedbackUserDataViewController.h */; };
 		1E49A4601612223B00463151 /* BITFeedbackUserDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E49A4391612223B00463151 /* BITFeedbackUserDataViewController.m */; };
-		1E49A46D1612226D00463151 /* BITAppVersionMetaInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E49A4621612226D00463151 /* BITAppVersionMetaInfo.h */; };
+		1E49A46D1612226D00463151 /* BITAppVersionMetaInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E49A4621612226D00463151 /* BITAppVersionMetaInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1E49A4701612226D00463151 /* BITAppVersionMetaInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E49A4631612226D00463151 /* BITAppVersionMetaInfo.m */; };
 		1E49A4731612226D00463151 /* BITUpdateManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E49A4641612226D00463151 /* BITUpdateManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1E49A4761612226D00463151 /* BITUpdateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E49A4651612226D00463151 /* BITUpdateManager.m */; };
@@ -132,7 +132,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1E0FEE22173BD9BB0061331F /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		1E0FEE26173BDB260061331F /* BITKeychainUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BITKeychainUtils.h; sourceTree = "<group>"; };
 		1E0FEE27173BDB260061331F /* BITKeychainUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BITKeychainUtils.m; sourceTree = "<group>"; };
 		1E1127BC16580C87007067A2 /* buttonRoundedDelete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonRoundedDelete.png; sourceTree = "<group>"; };
@@ -451,13 +450,13 @@
 				1E49A43C1612223B00463151 /* BITFeedbackComposeViewController.h in Headers */,
 				1EF95CAA162CB314000AE3AD /* BITFeedbackComposeViewControllerDelegate.h in Headers */,
 				1EF95CA6162CB037000AE3AD /* BITFeedbackActivity.h in Headers */,
+				1E49A46D1612226D00463151 /* BITAppVersionMetaInfo.h in Headers */,
 				1E49A4AF161222B900463151 /* BITHockeyBaseManager.h in Headers */,
 				1E49A4B8161222B900463151 /* BITHockeyBaseViewController.h in Headers */,
 				1E49A4421612223B00463151 /* BITFeedbackListViewCell.h in Headers */,
 				1E49A4541612223B00463151 /* BITFeedbackManagerPrivate.h in Headers */,
 				1E49A4571612223B00463151 /* BITFeedbackMessage.h in Headers */,
 				1E49A45D1612223B00463151 /* BITFeedbackUserDataViewController.h in Headers */,
-				1E49A46D1612226D00463151 /* BITAppVersionMetaInfo.h in Headers */,
 				1E49A47C1612226D00463151 /* BITUpdateManagerPrivate.h in Headers */,
 				1E49A4851612226D00463151 /* BITUpdateViewControllerPrivate.h in Headers */,
 				1E49A4B5161222B900463151 /* BITHockeyBaseManagerPrivate.h in Headers */,

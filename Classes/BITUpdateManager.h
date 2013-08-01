@@ -32,6 +32,8 @@
 #import <UIKit/UIKit.h>
 #import "BITHockeyBaseManager.h"
 
+extern NSString *DDBITUpdateManagerNewVersionAvailableNotification;
+extern NSString *DDBITUpdateManagerNewVersionKey;
 
 typedef enum {
 	BITUpdateAuthorizationDenied,

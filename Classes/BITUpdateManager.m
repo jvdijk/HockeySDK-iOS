@@ -39,6 +39,8 @@
 #import "BITUpdateViewControllerPrivate.h"
 #import "BITAppVersionMetaInfo.h"
 
+NSString *DDBITUpdateManagerNewVersionAvailableNotification = @"DDBITUpdateManagerNewVersionAvailableNotification";
+NSString *DDBITUpdateManagerNewVersionKey = @"DDBITUpdateManagerNewVersionKey";
 
 @implementation BITUpdateManager {
   NSString *_currentAppVersion;
@@ -455,6 +457,9 @@
       [alertView show];
       _updateAlertShowing = YES;
     } else {
+        [[NSNotificationCenter defaultCenter] postNotificationName:DDBITUpdateManagerNewVersionAvailableNotification object:self userInfo:@{DDBITUpdateManagerNewVersionKey : self.newestAppVersion}];
+
+    /*
       UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:BITHockeyLocalizedString(@"UpdateAvailable")
                                                            message:[NSString stringWithFormat:BITHockeyLocalizedString(@"UpdateAlertTextWithAppVersion"), [self.newestAppVersion nameAndVersionString]]
                                                           delegate:self
@@ -467,6 +472,7 @@
       [alertView setTag:0];
       [alertView show];
       _updateAlertShowing = YES;
+     */
     }
   }
 }
